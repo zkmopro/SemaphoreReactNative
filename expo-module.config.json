@@ -1,0 +1,13 @@
+{
+    "platforms": ["apple", "android", "web"],
+    "apple": {
+        "modules": ["IdentityModule", "GroupModule", "ProofModule"]
+    },
+    "android": {
+        "modules": [
+            "expo.modules.semaphore.IdentityModule",
+            "expo.modules.semaphore.GroupModule",
+            "expo.modules.semaphore.ProofModule"
+        ]
+    }
+}
