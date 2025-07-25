@@ -819,7 +819,7 @@ internal interface IntegrityCheckingUniffiLib : Library {
 internal interface UniffiLib : Library {
     companion object {
         internal val INSTANCE: UniffiLib by lazy {
-            val componentName = "mopro"
+            val componentName = "semaphore_bindings"
             // For large crates we prevent `MethodTooLargeException` (see #2340)
             // N.B. the name of the extension is very misleading, since it is
             // rather `InterfaceTooLargeException`, caused by too many methods

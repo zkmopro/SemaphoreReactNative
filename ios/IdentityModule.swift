@@ -1,5 +1,4 @@
 import ExpoModulesCore
-import moproFFI
 
 public class IdentityModule: Module {
   private var identity: Identity? = nil

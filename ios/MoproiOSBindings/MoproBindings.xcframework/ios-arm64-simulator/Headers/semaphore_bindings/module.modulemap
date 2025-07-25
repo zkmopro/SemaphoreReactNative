@@ -1,0 +1,4 @@
+module semaphore_bindingsFFI {
+    header "semaphore_bindingsFFI.h"
+    export *
+}

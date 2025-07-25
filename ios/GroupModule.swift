@@ -1,5 +1,4 @@
 import ExpoModulesCore
-import moproFFI
 
 public class GroupModule: Module {
   private var group: Group? = nil
