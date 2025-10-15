@@ -92,13 +92,13 @@ cd example
 To run on a connected iOS simulator:
 
 ```sh
-npm run ios:device
+npm run ios
 ```
 
 To run on a connected iOS device:
 
 ```sh
-npm run ios
+npm run ios:device
 ```
 
 ### Android
